@@ -1,7 +1,7 @@
 // ye middleware check krega ki user h ya nhi h 
 
 import { User } from "../models/user.models.js";
-import { ApiError } from "../utils/ApiError.js";
+import { ApiError } from "../utils/apiError.js";
 import { asyncHandler } from "../utils/asyncHandlers.js";
 import jwt from "jsonwebtoken";
 

@@ -404,7 +404,7 @@ const deleteVideo = asyncHandler(async (req, res) => {
     await Comment.deleteMany({
         video: videoId,
     })
-    
+    console.log("video deleted successfully !!")
     return res
         .status(200)
         .json(new ApiResponse(200, {}, "Video deleted successfully"));
